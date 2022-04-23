@@ -1,0 +1,128 @@
+/* .dream-bg {
+        background-image: url('../../assets/bg-img/image-bg-3.png');
+        background-repeat: no-repeat;
+        background-position: left bottom;
+        height: 100%;
+        top: 0;
+        z-index: -1;
+} */
+
+.cos-Container{
+    padding: 273px 0 150px 0;
+}
+.header1{
+        font-family: Manifold Light;
+        color: #fff;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 52px;
+}
+.header2{
+    font-family: Manifold ;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    background-image: linear-gradient(to right, #FECB47 , #FF9900 );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #FF9900;
+}
+
+
+.CardImg{
+    display: block;
+    margin:0 auto;
+    width: 424px;
+    height: 405px;
+    left: 0px;
+    top: 0px;
+    text-align: center;
+ 
+}
+
+.title{
+    margin: auto;
+    margin-top: 94px;
+}
+/* .CardImg-2{
+    display: block;
+    margin:0 auto;
+    width: 597px;
+    height: 677px;
+    left: 0px;
+    top: 0px;
+    text-align: center;
+}
+
+.CardImg-3{
+    display: block;
+    margin: 0 auto;
+    width: 480px;
+    height: 461px;
+    left: 0px;
+    top: 0px;
+    text-align: center;
+} */
+
+
+.cardtext {
+        font-family: Manifold;
+        font-style: normal;
+        font-size: 24px;
+        text-align: center;
+        bottom: 0;
+        -webkit-text-fill-color: #ffffff;
+        padding: 0px 100px;
+        
+}
+.icons{
+        padding: 10px;
+        border:none;
+}
+.icons:hover{
+    border: 5px solid ;
+    border-image-source: linear-gradient(to left, #FECB47 , #FF9900 );
+    border-image-slice: 1;
+    transition: .2s;
+    color: #FF9900;
+}
+
+
+
+@media (min-width: 280px) and (max-width: 800px){
+    .dream-bg{
+        background-image: none;
+    }
+    .header1{
+        font-size: 30px;
+    }
+    .header2{
+        font-size: 30px;
+        padding: 0;
+        margin: 0;
+    }
+
+
+    .cardtext {
+        font-family: Manifold;
+        font-style: normal;
+        font-size: 14px;
+        margin-top: 20px;
+        margin-bottom: 50px;
+        padding: 0px;
+    }
+
+    .CardImg{
+        padding: 0;
+        margin: 0;
+        height: 300px;
+        width: 300px;
+    }
+
+    .cos-Container {
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+}
+
+

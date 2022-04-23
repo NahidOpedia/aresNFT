@@ -1,0 +1,8 @@
+.section-2-bg{
+        background-image: url("../assets/bg-img/section-2-bg.png");
+        background-repeat: no-repeat;
+        background-position: right center;
+        padding-top: 40px;
+        height: 100%;
+        top: 0;
+}

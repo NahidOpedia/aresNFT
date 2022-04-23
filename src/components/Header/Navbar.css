@@ -1,0 +1,23 @@
+
+
+.font{
+    margin:20px;
+}
+.btn-hover {
+    position: relative;
+}
+.btn-hover::after{
+            content: '';
+            position: absolute;
+            width: 5px;
+            height: 4px;
+            background: linear-gradient(to right, #FECB47, #FF9900);
+            left: 50%;
+            transform: translateX(-50%);
+            transition: .3s;
+} 
+
+
+.btn-hover:hover::after {
+    width:100%
+}

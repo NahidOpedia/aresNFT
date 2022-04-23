@@ -1,0 +1,157 @@
+.plan-bg{
+    background-color: black;
+    padding-top: 100px;
+}
+.plan-title{
+    font-family: 'Manifold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 48px;
+    text-align: center;
+    background: linear-gradient(104.43deg, #EFB022 39.77%, #A17D28 80.01%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+
+.text-level{
+    font-family: 'Gugi';
+    font-size: 30px;
+    line-height: 38px;
+    color: #FFFFFF;
+    border: 1px solid #fff;
+    background: linear-gradient(279.06deg, #2E49A8 -8.32%, #840A0A 125.56%);
+    border-radius: 5px;
+    margin: 0 67px;
+    padding: 26px 0;
+
+}
+.text-level-2{
+    font-family: 'Gugi';
+    font-size: 30px;
+    line-height: 38px;
+    color: #FFFFFF;
+    border: 1px solid #fff;
+    background: linear-gradient(229.41deg, #348D78 26.93%, rgba(0, 112, 215, 0.66) 67.12%);
+    border-radius: 5px;
+    margin: 0 67px;
+    padding: 26px 0;
+}
+.text-level-3{
+        font-family: 'Gugi';
+        font-size: 30px;
+        line-height: 38px;
+        color: #FFFFFF;
+        border: 1px solid #fff;
+        background: linear-gradient(287.19deg, #EFB022 52.1%, rgba(215, 52, 0, 0) 133.5%);
+        border-radius: 5px;
+        margin: 0 67px;
+        padding: 26px 0;
+        }
+
+.level{
+    margin-top: 65px;
+}
+.mt-73{
+    margin-top: 73px;
+}
+.card-logo{
+    margin-top: 10;
+}
+.plan-subtitle{
+    font-family: 'Gugi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 50px;
+    color: #FFFFFF;
+}
+
+.plan-card-bg{
+
+    width: 476px;
+    height: 983px;
+    background: #000000;
+    border: 4px solid transparent;
+    border-image-source: linear-gradient(180deg, #6A1E59 0%, rgba(255, 255, 255, 0) 100%, rgba(0, 0, 0, 0) 100%);
+    border-image-slice: 1;
+    backdrop-filter: blur(20px);
+    border-radius: 14px;
+}
+
+.plan-card-bg-2 {
+
+    width: 476px;
+    height: 983px;
+    background: #000000;
+    border: 2px solid transparent;
+    border-image-source: linear-gradient(180deg, #348E78 0%, rgba(255, 255, 255, 0) 100%, rgba(0, 0, 0, 0) 100%);
+    border-image-slice: 1;
+    backdrop-filter: blur(20px);
+    border-radius: 14px;
+}
+
+.plan-card-bg-3 {
+
+    width: 476px;
+    height: 983px;
+    background: #000000;
+    border: 2px solid transparent;
+    border-image-source: linear-gradient(180deg, #EFB022 0%, rgba(255, 255, 255, 0) 100%, rgba(0, 0, 0, 0) 100%);
+    border-image-slice: 1;
+    backdrop-filter: blur(20px);
+    border-radius: 14px;
+}
+
+.item-text{
+    
+    font-family: 'Gugi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 50px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+.gif-file{
+    width: 200px;
+    height: 200px;
+    margin-top: -100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.shop{
+    width: 375px;
+}
+/* @media(min-width:280px) and (max-width:800px){
+    .plan-title {
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .plan-subtitle {
+        font-size: 12px;
+        line-height: 50px;
+    }
+    .costom-grid{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 0x auto;
+        padding-top: 40px;
+    }
+    .plan-card-bg {
+     width: 300px;
+     height: 800px;
+     margin-top: 150px;
+    }
+    .text-level{
+        font-size: 18px;
+    }
+    .item-text {
+        font-size: 12px;
+        line-height: 30px;
+    }
+} */

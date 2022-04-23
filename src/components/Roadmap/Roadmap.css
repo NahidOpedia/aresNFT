@@ -1,0 +1,250 @@
+
+
+.header-road{
+    padding-top: 100px;
+    font-size: 48px;
+    background-image: linear-gradient(to right, #FECB47, #FF9900);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #FF9900;
+}
+
+.pre-header{
+    padding: 50px 250px 50px 250px;
+    color: #ffffff;
+     font-family: 'Gugi',cursive;
+    font-size: 24px;
+    line-height: 50px;
+}
+
+.globel{
+    margin: auto;
+    position: relative;
+}
+
+.box {
+    position: absolute;
+    height: 40px;
+    width: 40px;    
+    background-color: #f1930575;
+    border-radius: 50px;
+    visibility: hidden;
+    top: 0;
+    left: 49%;
+    transition: .3s;
+    opacity: 0;
+}
+
+.box:hover{
+    opacity: 1;
+    height: 40px;
+    width: 40px;
+    background-color: #f1930575;
+    border-radius: 50px;
+    left: 49%;
+}
+
+
+.road-text{
+    color: #ffffff;
+    font-family: 'Gugi';
+    font-size: 24px;
+}
+
+.roadmap-card{
+    visibility: visible;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 40px;
+    width: 588px;
+    height: 230px;
+    left: -588px;
+    top: 68px;
+    color: #ffffff;
+    background: linear-gradient(319.74deg, rgba(30, 17, 17, 0.45) 77.07%, rgba(248, 186, 66, 0.45) 98.42%, rgba(255, 169, 1, 0.45) 110.99%, rgba(0, 0, 0, 0) 133.21%);
+    border-radius: 2px;
+}
+
+
+
+.count-percent{
+    font-family: 'Gugi';
+    font-size: 60px;
+    color: #FBEE22;
+    text-align: justify;
+    letter-spacing: 0.005em;
+}
+.road-content{
+    text-align: left;
+    font-size: 12px;
+}
+
+
+
+.box.box-second {
+    position: absolute;
+    top: 20%;
+    left: 49%;
+}
+
+.box.box-second .roadmap-card {
+    left: 91%;
+}
+
+
+.box.box-third {
+    position: absolute;
+    top: 42%;
+}
+
+.box.box-fourth {
+    position: absolute;
+     top: 64%;
+   left: 49%;
+}
+
+
+.box.box-fourth .roadmap-card {
+    position: absolute;
+    left: 82%;
+}
+
+
+.box.box-fifth {
+    position: absolute;
+    top: 82%;
+}
+
+
+.box.box-fifth .roadmap-card {
+    position: absolute;
+    right: 100%;
+}
+
+@media(min-width:280px) and (max-width:800px){
+    .roadmap{
+        margin: 0 !important;
+    }
+    .header-road {
+        padding-top: 0px;
+        font-size: 30px;
+    }
+    .pre-header {
+        padding: 5px;
+        color: #ffffff;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+
+    /* gobal map contain */
+    .globel {
+        margin: auto;
+        position: relative;
+    }
+    
+    .box {
+        position: absolute;
+        height: 40px;
+        width: 40px;
+        background-color: #f1930575;
+        border-radius: 50px;
+        visibility: hidden;
+        top: 0;
+        left: 75%;
+        transition: .3s;
+        opacity: 1;
+    }
+    
+    .box:hover {
+        opacity: 1;
+        height: 40px;
+        width: 40px;
+        background-color: #f1930575;
+        border-radius: 50px;
+        left: 75%;
+    }
+    
+    
+    .road-text {
+        font-size: 16px;
+        margin-top: 140px;
+        padding: 10px;
+    }
+    
+    .roadmap-card {
+        visibility: visible;
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 5px;
+        width: 250px;
+        height: 170px;
+        left: -400px;
+        top: 20px;
+        color: #ffffff;
+        background: linear-gradient(319.74deg, rgba(30, 17, 17, 0.45) 77.07%, rgba(248, 186, 66, 0.45) 98.42%, rgba(255, 169, 1, 0.45) 110.99%, rgba(0, 0, 0, 0) 133.21%);
+        border-radius: 2px;
+    }
+    
+    
+    
+    .count-percent {
+        font-family: 'Gugi';
+        font-size: 32px;
+        color: #FBEE22;
+        text-align: justify;
+        letter-spacing: 0.005em;
+    }
+    
+    .road-content {
+        text-align: left;
+        font-size: 12px;
+    }
+    
+    
+    
+    .box.box-second {
+        position: absolute;
+        top: 20%;
+        left: 49%;
+    }
+    
+    .box.box-second .roadmap-card {
+        left: 0%;
+    }
+    
+    
+    .box.box-third {
+        position: absolute;
+        top: 40%;
+    }
+    
+    .box.box-fourth {
+        position: absolute;
+        top: 64%;
+        left: 46%;
+    }
+    
+    
+    .box.box-fourth .roadmap-card {
+        position: absolute;
+        left: 56%;
+    }
+    
+    
+    .box.box-fifth {
+        position: absolute;
+        top: 80%;
+    }
+    
+    
+    .box.box-fifth .roadmap-card {
+        position: absolute;
+        right: 100%;
+    }
+
+}

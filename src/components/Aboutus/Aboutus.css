@@ -1,0 +1,101 @@
+/* .about-bg {
+    background-image: url('../../assets/bg-img/image-bg-2.png');
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    padding-top: 40px;
+    height: 100%;
+    top: 0;
+} */
+.story-pre{
+    font-family: 'Gugi';
+    font-weight: 400;
+    padding-right: 90px;
+    font-size: 22px;
+    text-align: center;
+}
+.about-text{
+    font-family: Manifold;
+    font-size: 52px !important;
+    background: linear-gradient(90deg, #FECB47 -33.33%, #FF9900 138.17%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.contact-us{
+    font-family: 'Gugi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 45px;
+    text-align: center;
+    color: #EFB022;
+    animation-name: yellowblink;
+    animation-duration: 1.5s;
+    animation-iteration-count:infinite;
+}
+
+.btn-aboutus{
+    font-family: 'Gugi';
+        font-size: 20px;
+        border: 2px solid #FFFFFF;
+        box-sizing: border-box;
+        border-radius: 5px;
+        padding: 15px 50px;
+        transition: 1s;
+}
+
+.btn-aboutus:hover{
+        border: 2px solid;
+        border-radius: 5px;
+        border-image-source : linear-gradient(to left, #FECB47, #ff990f);
+        border-image-slice : 1;
+        color:#ff990f;
+}
+.site-font{
+    font-size: 16px;
+}
+
+.aboutimg{
+    margin-top: 75px;
+}
+
+/* @media (min-width: 280px) and (max-width: 800px){
+    .about-bg{
+        background-image: none;
+        padding: 0;
+        margin: 0;
+    }
+    .aboutimg{
+        width: 486px;
+        height: 507px;
+        margin: 0 auto;
+    }
+    .about-text {
+        font-size: 32px ;
+        padding: 5px;
+        padding-top: 10px;
+        text-align: center ;
+    }
+    .font-color{
+        font-size: 16px !important;
+        padding: 5px;
+        margin: 0 auto;
+    }
+    .contact-us{
+        display: block;
+        font-size: 16px;
+    }
+    .email-res{
+        margin: 0;
+    }
+} */
+
+@keyframes yellowblink {
+    from {
+        color: #FFFFFF;
+    }
+
+    to {
+        color: #EFB022;
+    }
+}

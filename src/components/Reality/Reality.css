@@ -1,0 +1,113 @@
+/* .third-section-bg{
+    background-image: url('../../assets/bg-img/image-bg-2.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-top: 40px;
+    height: 100%;
+    top: 0;
+} */
+
+.third-section-bg{
+    margin-top: 84px;
+}
+
+.reality-text{
+    font-family: 'Manifold';
+    font-size: 50px;
+    line-height: 64px;
+    padding: 0 60px;
+    margin-bottom: 67px;
+    letter-spacing: 0.073em;
+    background: linear-gradient(90deg, #DCB533 -33.33%, #FF9900 138.17%) !important;
+    -webkit-background-clip: text  !important;
+    -webkit-text-fill-color: transparent  !important;
+    background-clip: text  !important;
+}
+
+.story-realty{
+    font-family: 'Gugi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.font-color{
+    font-size: 30px;
+}
+.reality-us{
+    font-family: 'Gugi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 45px;
+    text-align: center;
+    color: #EFB022;
+    animation-name: yellowblink;
+    animation-duration: 1.5s;
+    animation-iteration-count:infinite;
+}
+.realtiy-pre{
+    font-family: 'Gugi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 45px;
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+.reality{
+    margin-top: 48px;
+}
+
+.reality img{
+    width: 677px;
+    height: 764px;
+    margin-top: 29px;
+}
+
+/* .reality-web{
+
+} */
+
+/* 
+@media (min-width: 280px) and (max-width: 800px){
+    .costom-grid{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .reality-us{
+        display: block;
+        padding: 0;
+        margin: 0;
+        font-size: 16px;
+    }
+    .costom-mail{
+        margin: 0;
+    }
+    .reality{
+        width: 659px;
+        height: 745px;
+        margin: 20px auto;
+    }
+    .reality-web{
+        font-size: 16px;
+    }
+} */
+
+
+/* animation design contact */
+
+@keyframes yellowblink {
+    from {
+        color: #FFFFFF;
+    }
+
+    to {
+        color: #EFB022;
+    }
+}

@@ -1,0 +1,18 @@
+
+.App {
+  text-align: center;
+  font-family: "Manifold";
+}
+
+.story-pre{
+  font-size: 24px !important;
+}
+
+body{
+  background-color: #000000;
+}
+@media (min-width: 280px) and (max-width: 800px){
+  img{
+    margin: 0 auto;
+  }
+}

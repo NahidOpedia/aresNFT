@@ -1,0 +1,56 @@
+.card-border{
+    
+    padding-bottom: 25px;
+    border: 2px solid #FECB47;
+    padding: 10px;
+    /* border-image-source: linear-gradient(280deg, #FECB47 30%, rgba(254, 203, 71, 0) 100%); */
+
+}
+
+.img-border{
+    width: 233px;
+    height: 207px;
+    background: #000;
+    margin-top: -25px;
+    margin-right: -37px;
+    padding-left: 13px;
+}
+.per-card{
+    font-family: 'Gugi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 31px;
+    /* or 135% */
+    
+    text-align: justify;
+    
+    color: #FFFFFF;
+}
+
+.img-border img {
+    width: 194px;
+    height: 194px;
+}
+
+.card-border-wrap {
+    overflow: hidden;
+}
+.card-title{
+    text-align: left;
+}
+
+@media (min-width: 280px) and (max-width: 800px){
+    .grid-nft{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .per-card {
+        font-size: 13px;
+    }
+    .card-title {
+        text-align: left;
+        font-size: 10px;
+    }
+}

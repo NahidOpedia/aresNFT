@@ -1,0 +1,9 @@
+.ares-about {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.52), rgba(0, 0, 0, 0.73)),
+        url('../assets/bg-img/about-head-bg.png') !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    color: #ffffff;
+}

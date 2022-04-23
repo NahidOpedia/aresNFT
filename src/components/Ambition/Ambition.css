@@ -1,0 +1,84 @@
+.ambition-bg{
+    background-image: url("../../assets/bg-img/ambition-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-top: 40px;
+    height: 100%;
+    top: 0;
+}
+.ambition-container{
+    margin: auto 190px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 161px;
+}
+.container-ambit{
+    width: 50%;
+}
+.ambition-us{
+    font-family: 'Gugi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 45px;
+    text-align: justify;
+    padding: 0 50px;
+    color: #EFB022;
+}
+.reality-web{
+    font-family: 'gugi';
+    font-size: 30px;
+    line-height: 45px;
+}
+
+.ambition-img img{
+    width: 797px;
+    height: 660px;
+    margin-top: 129px;
+    margin-bottom: 189px;
+}
+.abition-text{
+    font-family: 'Manifold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 64px;
+    text-align: center;
+    letter-spacing: 0.073em;
+    background: linear-gradient(90deg, #DCB533 -33.33%, #FF9900 138.17%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    padding: 0px 80px;
+    margin-bottom: 32px;
+}
+.ambition-story{
+    margin-left: 19px;
+    margin-right: 70px;
+    font-family: 'Gugi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.btn-ambition{
+        font-family: 'Gugi';
+        font-size: 20px;
+        border: 2px solid #FFFFFF;
+        box-sizing: border-box;
+        border-radius: 5px;
+        padding: 15px 50px;
+        color: #FFFFFF;
+        transition: 1s;
+}
+
+.btn-ambition:hover {
+    border: 2px solid;
+    border-radius: 5px;
+    border-image-source: linear-gradient(to left, #FECB47, #ff990f);
+    border-image-slice: 1;
+    color: #ff990f;
+}

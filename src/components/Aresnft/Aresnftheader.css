@@ -1,0 +1,182 @@
+.ares-container{
+    margin: auto 190px;
+    margin-top: 155px;
+}
+.nft-bg{
+        background: #000;
+        
+}
+.contain {
+    text-align: center;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+}
+
+.contain-1{
+    margin-top: 0px;
+}
+
+.contain-2{
+    margin-top: 32px;
+}
+.contain-5{
+    margin-top: 75px;
+}
+.details {
+    font-family: 'gugi';
+    text-align: justify;
+    font-size: 24px;
+    color: #fff;
+}
+
+.details2 {
+    font-family: "Manifold";
+    font-size: 32px;
+}
+
+.black-bg{
+    background-color: black;
+}
+
+.header-top-1 {
+    margin-top: 178px;
+    font-family: 'Manifold';
+    font-size: 48px;
+    font-weight: 700;
+    background: linear-gradient(90deg, #FECB47 -33.33%, #FF9900 138.17%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-align: left;
+}
+
+.header-top-2{
+    font-size: 48px;
+    background: linear-gradient(90deg, #FECB47 -33.33%, #FF9900 138.17%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-align: right;
+    padding:0;
+    margin-bottom: 48px;
+}
+
+.header-top-3{
+    font-family: 'Manifold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: left;
+    margin-bottom: 48px;
+    background: linear-gradient(90deg, #FECB47 -33.33%, #FF9900 138.17%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.details-3{
+    font-family: 'Gugi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 50px;
+    text-align: justify;
+    color: #FFFFFF;
+    word-spacing: -4px;
+}
+
+.details-4{
+    font-family: 'Gugi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 50px;
+    text-align: justify;
+    color: #FFFFFF;
+}
+
+.header-top-4{
+    font-family: 'Manifold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+    text-align: left;
+    margin-bottom: 48px;
+    background: linear-gradient(90deg, #FECB47 -33.33%, #FF9900 138.17%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.details-5{
+    font-family: 'Gugi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 50px;
+    word-spacing: -4.5px;
+    text-align: justify;
+    color: #FFFFFF;
+}
+
+.nft-ares-img{
+    width: 553px;
+    height: 475px;
+    margin-right: 32px;
+    margin-left: 209px;
+    
+}
+
+.nft-ares-img-2{
+    width: 576px;
+    height: 384px;
+    margin-top: 45px;
+    margin-left: 70px;
+}
+
+.nft-img-3{
+    width: 693px;
+    height: 492px;
+    margin-top: 164px;
+    margin-left: 30px;
+}
+
+.nft-img-4{
+    width: 682px;
+    height: 474px;
+}
+.nft-img-5{
+    width: 494px;
+    height: 459px;
+    margin-left: 148px;
+    margin-top: 22px;
+}
+.AresNft{
+    margin-top: -120px;
+}
+
+.custom-grid{
+    margin-top: 75px;
+}
+.custom-grid-2{
+    margin-top: 89px;
+}
+.custom-grid-3{
+    margin-top: 22px;
+}
+/* @media (min-width: 280px) and (max-width: 800px){
+    .ares-container {
+        margin: 0;
+    }
+    .details {
+        margin: 0 auto;
+        font-size: 12px !important;
+    }
+    
+    .details2 {
+        margin: 0 auto;
+        font-size: 20px !important;
+    }
+} */
